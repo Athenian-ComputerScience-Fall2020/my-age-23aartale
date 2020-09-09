@@ -27,7 +27,8 @@ if __name__ == '__main__':
     after you have this working by defining "age" above, you can comment that line out and add a new line
     # below it to get the user's age as an input.
     '''
-
+    age = int(input("How old are you "))
+    
     age_now(age)   # run function age_now with argument age
     age_1(age)    # run function age_1 with argument age
     age_10(age)    # run function age_10 with argument age
